@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>irtigor's blog</title>
+  <link href="irtigor.github.com/atom.xml" rel="self"/>
+  <link href="irtigor.github.com/"/>
+  <updated>2011-08-10T22:00:56-03:00</updated>
+  <id>irtigor.github.com/</id>
+  <author>
+    <name>Igor Ramos Tiburcio</name>
+    
+  </author>
+
+  
+</feed>
