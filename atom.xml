@@ -4,12 +4,25 @@
   <title>irtigor's blog</title>
   <link href="irtigor.github.com/atom.xml" rel="self"/>
   <link href="irtigor.github.com/"/>
-  <updated>2011-08-10T22:00:56-03:00</updated>
+  <updated>2011-08-13T22:39:31-03:00</updated>
   <id>irtigor.github.com/</id>
   <author>
     <name>Igor Ramos Tiburcio</name>
     
   </author>
 
+  
+  <entry>
+    <title>Erro Ao Tentar Instalar O RedCloth Usando Gem</title>
+    <link href="irtigor.github.com/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem/"/>
+    <updated>2011-08-13T22:10:00-03:00</updated>
+    <id>irtigor.github.com/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem</id>
+    <content type="html">&lt;p&gt;Precisei instalar o modulo RedCloth, é uma dependência do &lt;a href=&quot;http://octopress.org&quot; title=&quot;octopress&quot;&gt;octopress&lt;/a&gt;, o problema é que ele usa a cflag Werror pra tratar alertas como erro... cortando o lero-lero:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gem install RedCloth -- --with-cflags=\&quot;-O2 -pipe -march=native -Wno-unused-but-set-variable\&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Fonte: &lt;a href=&quot;http://stackoverflow.com/questions/6761670/is-there-any-way-to-change-gcc-compilation-options-for-a-gem&quot; title=&quot;stackoverflow&quot;&gt;http://stackoverflow.com/questions/6761670/is-there-any-way-to-change-gcc-compilation-options-for-a-gem&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
 </feed>

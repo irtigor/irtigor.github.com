@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>irtigor's blog: Blog Archive</title>
+  <title>irtigor's blog: Erro Ao Tentar Instalar O RedCloth Usando Gem</title>
   <meta name="author" content="Igor Ramos Tiburcio">
   
 
@@ -16,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="irtigor.github.com/blog/archives/index.html"/>
+  <link rel="canonical" href="irtigor.github.com/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem/"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,33 +82,72 @@
   <div id="main">
     <div id="content">
       <div>
-<article>
+<article class="hentry">
+  
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Erro Ao Tentar Instalar O RedCloth Usando Gem</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2011-08-13 22:10:00 -0300" pubdate  updated >Aug 13<span>th</span>, 2011</time>
+
+
+</p>
     
   </header>
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Precisei instalar o modulo RedCloth, é uma dependência do <a href="http://octopress.org" title="octopress">octopress</a>, o problema é que ele usa a cflag Werror pra tratar alertas como erro&#8230; cortando o lero-lero:</p>
 
-  
-  <h2>2011</h2>
+<p><code>gem install RedCloth -- --with-cflags=\"-O2 -pipe -march=native -Wno-unused-but-set-variable\"</code></p>
 
-<article>
-  
-<h1><a href="/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem/">Erro Ao Tentar Instalar O RedCloth Usando Gem</a></h1>
-<time datetime="2011-08-13 22:10:00 -0300" pubdate><span class='month'>Aug</span> <span class='day'>13</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/RedCloth/'>RedCloth</a>, <a class='category' href='/blog/categories/gcc/'>gcc</a>, <a class='category' href='/blog/categories/gem/'>gem</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a></span>
-</footer>
-
-
-</article>
-
+<p>Fonte: <a href="http://stackoverflow.com/questions/6761670/is-there-any-way-to-change-gcc-compilation-options-for-a-gem" title="stackoverflow">http://stackoverflow.com/questions/6761670/is-there-any-way-to-change-gcc-compilation-options-for-a-gem</a></p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Igor Ramos Tiburcio</span></span>
+
+      
+
+
+
+
+<time datetime="2011-08-13 22:10:00 -0300" pubdate  updated >Aug 13<span>th</span>, 2011</time>
+
+
+
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/RedCloth/'>RedCloth</a>, <a class='category' href='/blog/categories/gcc/'>gcc</a>, <a class='category' href='/blog/categories/gem/'>gem</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="irtigor.github.com/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem/" data-via="irtigor" data-counturl="irtigor.github.com/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem/" >Tweet</a>
+  
+  
+  <g:plusone size="medium"></g:plusone>
+  
+</div>
+
+    
+  </footer>
 </article>
 
 </div>

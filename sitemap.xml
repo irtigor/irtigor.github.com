@@ -1,11 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            irtigor.github.com/blog/2011/08/13/erro-ao-tentar-instalar-o-redcloth-usando-gem/
+        </loc>
+        <lastmod>2011-08-13T22:39:30-03:00</lastmod>
+    </url>
+    <url>
         <loc>irtigor.github.com/blog/archives/</loc>
-        <lastmod>2011-08-10T21:49:01-03:00</lastmod>
+        <lastmod>2011-08-13T22:39:30-03:00</lastmod>
     </url>
     <url>
         <loc>irtigor.github.com/</loc>
-        <lastmod>2011-08-10T21:49:01-03:00</lastmod>
+        <lastmod>2011-08-13T22:39:30-03:00</lastmod>
     </url>
 </urlset>
